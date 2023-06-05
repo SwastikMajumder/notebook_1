@@ -1,5 +1,4 @@
 # The software
-Digit recognition neural network
 This software can recongnize numbers written on a paper... the pipeline of the process is like this:
 1) Remove background by guassian adpative thresholding to get a binary image
 2) Analyzed pixels which are connected together following 8 direction of connectivity, to remove lone stops and locate position of digits

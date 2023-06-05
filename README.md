@@ -8,4 +8,5 @@ This software can recongnize numbers written on a paper... the pipeline of the p
 6) Use neural networks to identify what digits they are (neural network trained on MNIST numbers after thinning of it)
 7) Draw bounding boxes and then return the resultant image
 # Usage
-Just run main.py, after replacing the image.jpg with the image desired to make the software work on but with the same file name
+Just run main.py, after replacing the image.jpg with the image desired to make the software work on but with the same file name.
+The processing of the image may take around 5 minutes, so be paitent. After the processing has done, an output with digits and bounding boxes will displaying automatically

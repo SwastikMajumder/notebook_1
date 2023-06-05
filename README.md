@@ -1,4 +1,4 @@
-# notebook_1
+# The software
 Digit recognition neural network
 This software can recongnize numbers written on a paper... the pipeline of the process is like this:
 1) Remove background by guassian adpative thresholding to get a binary image
@@ -8,3 +8,5 @@ This software can recongnize numbers written on a paper... the pipeline of the p
 5) Then thin the digits again (thinning is a part of neural network, and it won't trouble losing information because its carefully built)
 6) Use neural networks to identify what digits they are (neural network trained on MNIST numbers after thinning of it)
 7) Draw bounding boxes and then return the resultant image
+# Usage
+Just run main.py, after replacing the image.jpg with the image desired to make the software work on but with the same file name
